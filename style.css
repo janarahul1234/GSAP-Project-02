@@ -1,0 +1,165 @@
+/* ======== Google Fonts ======== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* ======== BASE Reset ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    height: 100%;
+    color: #e0e0e0;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ======== Utilities ======== */
+.flex {
+    display: flex;
+}
+
+.flex-y {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-conter {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* ======== Navbar ======== */
+.nav {
+    margin: 0 2.5rem;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nav__brand-name {
+    font-size: 1.5rem;
+    margin-right: 13vw;
+}
+
+.nav-menu {
+    gap: 2.5rem;
+}
+
+.nav-menu__link {
+    color: #e0e0e0;
+}
+
+.btn {
+    color: #e0e0e0;
+    gap: 4px;
+}
+
+.nav__button-icon {
+    width: 24px;
+    margin-left: 4px;
+}
+
+/* ======== Hero ======== */
+.main {
+    margin: 0 2.5rem;
+}
+
+.hero {
+    margin: 5rem 0;
+}
+
+.hero__content {
+    width: 43.5%;
+}
+
+.hero__title span {
+    font-size: 5.6vw;
+    letter-spacing: -1px;
+    line-height: calc(5.6vw * 1.1);
+}
+
+.hero__profile-img {
+    width: 5vw;
+    height: 5vw;
+    margin-left: -12px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.hero__profile-img:first-child {
+    margin-left: 0;
+}
+
+.hero__profile-img:last-child {
+    margin-right: 0.6rem;
+}
+
+.hero-info {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+}
+
+.hero__img {
+    width: 50%;
+    height: 66vh;
+    border-radius: 1rem;
+}
+
+/* ======== Feature ======== */
+.feature {
+    margin: 2rem 0;
+}
+
+.feature__title {
+    font-size: 14px;
+    margin-bottom: 5rem;
+}
+
+.feature__play-button {
+    width: 44px;
+    height: 44px;
+    padding: 0.8rem;
+    margin-right: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+.feature__tag-wrapper {
+    gap: 0.5rem;
+}
+
+.feature__tag {
+    width: fit-content;
+    padding: 10px 1.2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 2rem;
+}
+
+.feature__card-wrapper {
+    gap: 4px;
+}
+
+.feature__content, .feature__card {
+    width: 21vw;
+}
